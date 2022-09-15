@@ -7,7 +7,7 @@ public class Test {
 		String s2="XYZ";
 		
 		String s3=new String("Abc");
-		
+		 
 		System.out.println("s1: "+s1);
 		System.out.println("s2: "+s2);
 		System.out.println("s3: "+s3);

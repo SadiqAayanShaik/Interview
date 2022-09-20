@@ -22,7 +22,7 @@ public class EmpMain {
 		employees.add(e5);
 		employees.add(e4);
 
-		System.out.println("Original salary");
+		System.out.println("\t\t Original salary \n");
 		System.out.println(employees);
 
 		List<Employee> incrimentedSalary = employees.stream().map(e -> {
@@ -34,7 +34,7 @@ public class EmpMain {
 
 		}).collect(Collectors.toList());
 
-		System.out.println("\n\tIncrimented salary who has age >25\n");
+		System.out.println("\n\t Incrimented salary who has age >25 \n");
 		System.out.println(incrimentedSalary);
 	}
 
